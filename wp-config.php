@@ -25,13 +25,13 @@ define( 'WPCACHEHOME', 'C:\xampp\htdocs\test.mobin.xyz\mobin-website\wp-content\
 define('DB_NAME', 'the7');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'dbuser');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'Xk3u5r*5');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost:33066');
+define('DB_HOST', 'localhost:3306');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');

@@ -25,7 +25,7 @@ define( 'WPCACHEHOME', 'C:\xampp\htdocs\test.mobin.xyz\mobin-website\wp-content\
 define('DB_NAME', 'the7');
 
 /** MySQL database username */
-define('DB_USER', 'dbuser');
+define('DB_USER', 'root');
 
 /** MySQL database password */
 define('DB_PASSWORD', 'Xk3u5r*5');

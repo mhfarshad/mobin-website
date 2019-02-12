@@ -52,3 +52,4 @@ if (typeof $us.WGrid === "function") {
 if (typeof $us.WTabs === "function") {
 	jQuery('.w-tabs').wTabs();
 }
+

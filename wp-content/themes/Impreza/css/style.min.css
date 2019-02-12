@@ -5,7 +5,7 @@
     src:url('../fonts/IRANSans-reg.ttf');
 }
 * , body, html, h1, h2, h3, h4, h5, h6, p, span{
-    font-family:IRANSans-reg !important;
+    font-family:IRANSans-reg;
 }
 header .l-subheader.at_middle{
     background-color:#1c39bb;
@@ -63,7 +63,7 @@ nav.w-nav ul.w-nav-list li{
     background-size: contain;
     background-repeat:no-repeat;
     padding:10px 10px 0;
-    height:1000px;
+    height:100vh;
 }
 .w-iconbox{
     margin-top:1rem;
@@ -91,11 +91,11 @@ nav.w-nav ul.w-nav-list li{
     margin-top:1rem;
 }
 .fa-icon-foot{
-    width:25%;
+    width:20%;
     float:left;
     color:#fff;
     text-align:left;
-    margin-left:15px;
+    margin-left:2.5%;
 }
 .fa-icon-foot i{
     padding:8px 12px;
@@ -122,8 +122,8 @@ section.l-section{
     position: fixed;
     z-index:500;
     width:auto;
-    top:49px;
-    left:7rem;
+    top:18px;
+    left:10rem;
     font-size:1.8rem;
 }
 .call-block a{
@@ -138,6 +138,37 @@ section.l-section{
 .call-block i{
     vertical-align: middle;
     margin-right:10px;
+}
+.not-padd-footer .l-section-h{
+    padding-bottom:0 !important;
+}
+.map-bg div.vc_column-inner{
+    width: 50%;
+    position: absolute;
+    right: 0;
+    text-align:center;
+}
+.map-bg .sub-txt-map-link a span{
+    color:#1c39bb !important;
+    margin-top:2rem;
+    padding:4px 12px;
+    border:4px solid #1c39bb;
+    background:transparent;
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+    width:auto;
+    border-radius:30px;
+    transition:.5s;
+}
+.map-bg .sub-txt-map-link a span:hover{
+    background:#1c39bb;
+    color:#fff !important;
+    box-shadow:0 5px 10px 1px rgba(0,0,0,.3);
+}
+section.col-half-r-not-padd .vc_column-inner{
+    padding-left:0 !important;
+    padding-right:0 !important;
 }
 @media (min-width: 767px) {
     nav.w-nav ul.w-nav-list li{
@@ -156,6 +187,10 @@ section.l-section{
     }
     header div.l-subheader-cell .ush_image_1 a{
         float:right;
+        position:absolute;
+        right:45%;
+        z-index:9999;
+	height:48px;
     }
     .map-bg{
         height:500px;
@@ -171,6 +206,7 @@ section.l-section{
         width:50% !important;
         float:right;
     }
+  
     .btn-top-header{
         display:block;
         margin:0 auto;
@@ -183,8 +219,26 @@ section.l-section{
         top:3%;
     }
   }
+  @media (max-width: 600px){
+    .fa-icon-foot{
+        width:45%;
+        margin-left:2%;
+    }
+  }
   @media (max-width: 400px){
     .g-cols .vc_col-sm-4 h6 a, .g-cols .vc_col-sm-6 h6 a{
         font-size:10px;
     }
+    h1{
+        font-size:16px !important;
+        font-weight:bold !important;
+    }
+    header div.l-subheader-cell .ush_image_1 a{
+	right: 40%;
+	height: 45px;
+    }
+    .footer-top ul a{
+        font-size:11px;
+    }
+
   }
